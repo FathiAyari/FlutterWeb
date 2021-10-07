@@ -39,10 +39,7 @@ class _HomePageState extends State<HomePage>
       tab: CustomTab(title: 'About'),
       content: AboutView(),
     ),
-    ContentView(
-      tab: CustomTab(title: 'Projects'),
-      content: ProjectsView(),
-    )
+  
   ];
 
   @override
@@ -98,7 +95,7 @@ class _HomePageState extends State<HomePage>
             ),
             ElevatedButton(onPressed: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen()));
-            }, child: Text("Logindd")),
+            }, child: Text("Login")),
 
           ],
         ),

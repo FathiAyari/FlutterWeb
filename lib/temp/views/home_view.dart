@@ -39,11 +39,11 @@ class _HomeViewState extends State<HomeView> {
                   children: [
                     header(getFontSize(true)),
                     SizedBox(height: screenHeight * 0.05),
-                    subHeader('Computer Scientist.', getFontSize(false)),
+                    subHeader('test', getFontSize(false)),
                     SizedBox(height: screenHeight * 0.01),
-                    subHeader('App Developer.', getFontSize(false)),
+                    subHeader('test', getFontSize(false)),
                     SizedBox(height: screenHeight * 0.01),
-                    subHeader('Flutter Enthusiast.', getFontSize(false)),
+                    subHeader('test', getFontSize(false)),
                     SizedBox(height: screenHeight * 0.1),
                   ],
                 ),
@@ -64,7 +64,7 @@ class _HomeViewState extends State<HomeView> {
         SizedBox(height: screenHeight * 0.02),
         header(30),
         SizedBox(height: screenHeight * 0.01),
-        subHeader('Computer Scientist - App Developer - Flutter Enthusiast', 15)
+        subHeader('Test -Test- Test', 15)
       ],
     );
   }
@@ -118,7 +118,7 @@ class _HomeViewState extends State<HomeView> {
         style: ThemeSelector.selectHeadline(context),
         children: <TextSpan>[
           TextSpan(text: 'Welcome to Show Room '),
-          TextSpan(text: 'Florian',),
+
 
         ],
       ),
