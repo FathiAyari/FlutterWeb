@@ -28,22 +28,17 @@ class BottomBar extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    CustomIconButton(
-                      iconData: FontAwesomeIcons.youtube,
-                      url:
-                          'https://www.youtube.com/channel/UCcrXelEbe1HEZb0Olqy7jGg',
-                      color: Colors.red,
-                    ),
+
                     SizedBox(width: screenWidth * 0.021),
                     CustomIconButton(
                       iconData: FontAwesomeIcons.github,
-                      url: 'https://github.com/FlorianPruemer',
+                      url: 'https://github.com/mounaboukhriss',
                       color: Colors.blueAccent,
                     ),
                     SizedBox(width: screenWidth * 0.02),
                     CustomIconButton(
                       iconData: FontAwesomeIcons.linkedin,
-                      url: 'https://www.linkedin.com/in/FlorianPruemer/',
+                      url: '',
                       color: Colors.blue,
                     )
                   ],
